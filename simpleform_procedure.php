@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
   }	
 
-$mysqli = new mysqli('localhost', 'root','lgD2UFb@', 'user_data');
+$mysqli = new mysqli('localhost', 'root','password', 'user_data');
 	
 	//Output any connection error
 	if ($mysqli->connect_error) {
